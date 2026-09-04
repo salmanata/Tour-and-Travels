@@ -165,20 +165,20 @@ font-weight: bold;
 .bali {
 background-image:
 linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
-url("https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=800&q=80");
+url("C:/Users/atasa/Desktop/Tour%20%26%20Travels/Images/Mecca.jpg");
 }
 
 .dubai {
 background-image:
 linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
-url("https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=800&q=80");
+url("C:\\Users\\atasa\\Desktop\\Tour & Travels\\Images\\Mecca.jpg");
 }
 
-.paris {
+/* .paris {
 background-image:
 linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
 url("https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=800&q=80");
-}
+} */
 
 .card-content {
 padding: 25px;
@@ -328,4 +328,13 @@ padding: 25px 20px;
 
 .why-card p {
     color: #666;
+}
+
+
+/* this section is added for Logo,  */
+
+.logo img {
+    height: 50px;
+    width: auto;
+    display: block;
 }
