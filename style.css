@@ -260,6 +260,9 @@ padding: 25px 20px;
 /* Mobile */
 
 @media (max-width: 768px) {
+        .why-container {
+        grid-template-columns: 1fr;
+    }
 
 .navbar {
     flex-direction: column;
@@ -293,4 +296,36 @@ padding: 25px 20px;
     font-size: 30px;
 }
 
+}
+
+
+
+
+/* this change is made for "why choose us" section */
+
+/* Why Choose Us */
+
+.why-section {
+    background-color: #f4f8fa;
+}
+
+.why-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.why-card {
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.why-card h3 {
+    margin-bottom: 15px;
+    font-size: 22px;
+}
+
+.why-card p {
+    color: #666;
 }
