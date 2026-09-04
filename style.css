@@ -165,13 +165,13 @@ font-weight: bold;
 .bali {
 background-image:
 linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
-url("C:/Users/atasa/Desktop/Tour%20%26%20Travels/Images/Mecca.jpg");
+url("/Images/Mecca.jpg");
 }
 
 .dubai {
 background-image:
 linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
-url("C:\\Users\\atasa\\Desktop\\Tour & Travels\\Images\\Mecca.jpg");
+url("Images\\Mecca.jpg");
 }
 
 /* .paris {
