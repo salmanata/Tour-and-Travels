@@ -244,8 +244,10 @@ margin-bottom: 10px;
 }
 
 .contact-card p {
-margin-bottom: 20px;
-color: #555;
+    margin-bottom: 20px;
+    color: #555;
+    overflow-wrap: anywhere;
+    word-break: break-word;
 }
 
 /* Footer */
@@ -263,13 +265,6 @@ padding: 25px 20px;
         .why-container {
         grid-template-columns: 1fr;
     }
-
-    /* this is added to fix mobile version of the "why choose us" section  */
-
-    .why-container {
-    display: grid;
-    grid-template-columns: 1fr;
-}
 
 .navbar {
     flex-direction: column;
@@ -313,37 +308,6 @@ padding: 25px 20px;
 
 }
 
-
-
-
-/* this change is made for "why choose us" section */
-
-/* Why Choose Us */
-
-.why-section {
-    background-color: #f4f8fa;
-}
-
-.why-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 25px;
-}
-
-.why-card {
-    padding: 30px;
-    background-color: white;
-    border-radius: 10px;
-}
-
-.why-card h3 {
-    margin-bottom: 15px;
-    font-size: 22px;
-}
-
-.why-card p {
-    color: #666;
-}
 
 
 /* this section is added for Logo,  */
