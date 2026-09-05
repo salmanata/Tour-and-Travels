@@ -165,7 +165,7 @@ font-weight: bold;
 .bali {
 background-image:
 linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
-url("/Images/Mecca.jpg");
+url("Images/Mecca.jpg");
 }
 
 .dubai {
@@ -269,6 +269,14 @@ padding: 25px 20px;
     gap: 15px;
 }
 
+    .social-container {
+        grid-template-columns: 1fr;
+    }
+
+    .follow-section h2 {
+        font-size: 30px;
+    }
+
 .nav-links {
     gap: 15px;
     flex-wrap: wrap;
@@ -337,4 +345,84 @@ padding: 25px 20px;
     height: 50px;
     width: auto;
     display: block;
+}
+
+.logo a {
+    display: block;
+}
+
+
+
+
+
+/* Follow Us */
+
+.follow-section {
+    background-color: #f4f8fa;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.follow-section h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.follow-section > p {
+    color: #666;
+    margin-bottom: 40px;
+}
+
+.social-container {
+    max-width: 700px;
+    margin: auto;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.social-card {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.social-card img {
+    width: 180px;
+    height: 180px;
+
+    object-fit: contain;
+
+    margin-bottom: 20px;
+}
+
+.social-card h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.social-card p {
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.social-link {
+    display: inline-block;
+
+    background-color: #0077b6;
+    color: white;
+
+    padding: 10px 20px;
+
+    border-radius: 5px;
+
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.social-link:hover {
+    background-color: #005f8f;
 }
